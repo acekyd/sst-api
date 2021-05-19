@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trades",
+  "info": {
+    "name": "trades"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "market": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Buy",
+        "Sell"
+      ]
+    },
+    "price": {
+      "type": "float"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
