@@ -35,6 +35,21 @@
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "coin": {
+      "type": "string"
+    },
+    "base": {
+      "type": "string"
+    },
+    "purchaseDate": {
+      "type": "datetime"
+    },
+    "fee": {
+      "type": "float"
+    },
+    "feeCoin": {
+      "type": "string"
     }
   }
 }
