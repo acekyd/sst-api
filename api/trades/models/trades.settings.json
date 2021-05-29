@@ -27,10 +27,10 @@
       "type": "float"
     },
     "amount": {
-      "type": "decimal"
+      "type": "float"
     },
     "total": {
-      "type": "decimal"
+      "type": "float"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
